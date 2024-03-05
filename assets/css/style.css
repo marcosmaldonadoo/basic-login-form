@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #b0b6ff 0,
+    #7c92ff 25%,
+    #486ee5 50%,
+    #074ba9 75%,
+    #002c73 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login_form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  border-radius: 10px;
+  gap: 30px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.35);
+  height: fit-content;
+}
+
+#form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form-header h1 {
+  font-size: 40px;
+  position: relative;
+}
+
+#form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input-box label {
+  font-size: 16px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 3px;
+  cursor: text;
+  border-bottom: 1px solid #074ba9;
+}
+
+.input-field input {
+  border: none;
+  background-color: transparent;
+  width: 260px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.input-field input:focus {
+  outline: none;
+}
+
+#forgot-password a {
+  text-decoration: none;
+  font-size: 12px;
+  text-align: left;
+}
+
+#forgot-password a:hover {
+  color: #002c73;
+}
+
+button {
+  border: none;
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

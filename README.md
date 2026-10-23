@@ -1,24 +1,30 @@
-# basic-login-form
-Este código apresenta uma página HTML básica que oferece um formulário de login simples. Desenvolvido com o propósito de práticar em programação
+# Formulário de login
 
-Este é um exemplo básico de uma página de login desenvolvida em HTML e CSS. Esta página consiste em um formulário de login simples com campos para e-mail e senha.
+**HTML · CSS**
 
-Estrutura do Projeto
+Exercício de construção de uma tela de acesso, com campos de e-mail e senha, botão de login e link visual de recuperação de senha.
 
-O projeto contém os seguintes arquivos:
+## Objetivo
 
-    index.html: Este é o arquivo principal que contém a estrutura HTML da página de login.
-    assets/css/style.css: Este arquivo contém estilos CSS para estilizar a página de login.
+Praticar a estrutura de formulários em HTML e a apresentação de componentes com CSS.
 
-Funcionalidades
+## Como visualizar
 
-    Formulário de login com campos para e-mail e senha.
-    Ícone do usuário para adicionar um elemento visual ao cabeçalho do formulário.
-    Um link "Esqueceu sua senha?" que pode ser personalizado para adicionar funcionalidade adicional.
+```bash
+git clone https://github.com/marcosmaldonadoo/basic-login-form.git
+cd basic-login-form
+```
 
-Como Utilizar
+Abra `index.html` em um navegador. Não há instalação de dependências nem etapa de compilação. O ícone usa o Font Awesome carregado por uma URL externa.
 
-    Clone este repositório em sua máquina local.
-    Abra o arquivo index.html em qualquer navegador da web para visualizar a página de login.
-    Personalize conforme necessário para se adequar às suas necessidades de autenticação.
-    Sinta-se à vontade para fazer qualquer alteração ou adição de recursos conforme desejado!
+## Estrutura
+
+```text
+index.html
+assets/css/style.css
+```
+
+## Escopo
+
+Este projeto apresenta somente a interface. Não há servidor, validação de credenciais, criação de sessão ou recuperação de senha implementados. Use dados fictícios ao explorar o formulário.
+
